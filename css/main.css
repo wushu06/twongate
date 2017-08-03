@@ -1,0 +1,553 @@
+/* main color : #a46934;  background-color: #2c2c2b;*/
+
+
+/* General styling */
+
+html,
+body {
+    height: 100%;
+}
+
+
+
+a:hover {
+    text-decoration: none;
+}
+
+@font-face {
+
+    font-family: ('MyriadPro-Regular'),
+
+    src: url('fonts/MyriadPro-Regular.ttf ') format("truetype");
+}
+
+body {
+    font-family: 'MyriadPro-Regular';
+}
+
+.widthToggle {
+    width: 450px !important;
+}
+
+.colorToggle {
+    background-color: #222 !important;
+}
+
+.color {
+    color: #a46934 !important;
+}
+
+
+/* end general styling */
+
+
+/* Navbar styling */
+
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 5px;
+    color: #a46934;
+    font-size: 26px;
+}
+
+@media (min-width: 992px) {
+
+    .navbar .container {
+        width: 100%;
+        max-width: 100% !important;
+    }
+}
+
+.navbar-header {
+    width: 100%;
+}
+
+.container>.navbar-header {
+    padding: 10px;
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-toggle {
+        display: block !important;
+    }
+}
+
+.menu-icon,
+.view {
+    font-size: 18px;
+    color: #a46934;
+    line-height: 49px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    margin-right: 70px;
+}
+
+.view {
+    margin-right: 20px;
+}
+
+.bars-parent {
+    position: fixed;
+    top: 14px;
+    right: 5rem;
+
+    z-index: 999999;
+    cursor: pointer;
+    width: 35px;
+}
+
+.bars {
+    width: 23px;
+    height: 3px;
+    background-color: #a46934;
+    margin: 4px 0;
+}
+
+.header {
+    position: relative;
+    height: 50px;
+}
+
+.menu {
+    background-color: #a46934;
+    z-index: 9999;
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    margin-right: -83px;
+    transform: skewX(10deg);
+    height: 100%;
+    position: relative;
+}
+
+.menu-list {
+    position: fixed;
+    top: 0;
+    right: -20px;
+    z-index: 99999;
+    display: none;
+}
+
+.menu-list ul {
+    margin-top: 70px;
+    margin-right: 6.2rem;
+    z-index: 999999;
+}
+
+.menu-list ul li {
+    text-align: right;
+    color: #222;
+    padding: 10px;
+    list-style: none;
+}
+
+.menu-list ul li a {
+    font-size: 18px;
+    color: #222;
+}
+
+.menu-list ul li a:hover {
+    color: #fff;
+}
+
+
+
+
+/* end navbar styling */
+
+
+/* Start main video styling */
+
+.main-video {
+    width: 100%;
+    height: 100%;
+}
+
+.main-video video {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.main-video .overlay {
+    position: absolute;
+    top: 64%;
+    left: 35%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.main-video .overlay h1 {
+    font-size: 90px;
+}
+
+.overlay:after {
+    content: '';
+    width: 260px;
+    height: 4px;
+    background-color: #a46934;
+    position: absolute;
+    top: 110%;
+}
+
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}
+
+
+/* end main video styling */
+
+
+/* Start location styling */
+
+.location {
+    width: 100%;
+    height: 90%;
+}
+
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.times {
+    width: 100%;
+
+    background-color: #141414;
+    line-height: 10px;
+}
+
+.times .row {
+    width: 100%;
+}
+ .container {
+	max-width: 950px;
+}
+
+.times h2 {
+    font-size: 30px;
+    position: relative;
+    color: #a46934;
+    margin-bottom: 50px;
+    margin-left: 13px;
+}
+
+.times h2:after {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: #a46934;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.times .container {
+    padding: 100px;
+}
+
+.times h4 {
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+.times p,
+.times h4 {
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+
+
+/* End location styling */
+
+
+/* Start site plan styling */
+
+.site-plan {
+    width: 100%;
+    background-color: #141414;
+}
+
+.site-plan .container {
+    padding: 100px 65px;
+}
+
+.site-plan h2 {
+    font-size: 30px;
+    position: relative;
+    color: #a46934;
+    margin-bottom: 50px;
+    margin-left: 13px;
+}
+
+.site-plan h2:after {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: #a46934;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.site-plan p {
+    color: #fff;
+    font-size: 18px;
+    border-bottom: 1px solid #a46934;
+}
+
+.site-plan .site-img {
+    position: relative;
+}
+
+.site-plan .site-img .dots .small-dot {
+    position: absolute;
+    background-color: #a46934;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.site-plan .site-img .dots .dotOne {
+
+    top: 0;
+    left: 0;
+}
+
+.site-plan .site-img .dots .dotTwo {
+
+    top: 10px;
+    right: 0;
+}
+button:hover  .dot-text{
+	display: block !important;
+}
+
+.site-plan .site-img .dots .dotThree {
+
+    bottom: 0;
+    left: 0;
+}
+.site-plan .site-img .dot-text p {
+	font-size: 18px;
+}
+.site-plan .site-img .dot-text {
+	position: absolute;
+	background-color: #a46934;
+    width: 176px;
+    height: 100px;
+   
+    
+    
+}
+.dot-text-one {
+	top: -80px;
+    left: 0;
+     display: none;
+    
+}
+
+/* end site plan styling */
+/* Start sile overview styling */
+
+.site-overview {
+    width: 100%;
+    background-color: #141414;
+}
+.site-overview .overview-text {
+	margin-top: 20px;
+}
+.site-overview p, .site-overview li {
+	color: #fff;
+}
+
+.site-overview .container {
+    padding: 100px 65px;
+    max-width: 950px;	
+}
+
+.site-overview h2 {
+    font-size: 30px;
+    position: relative;
+    color: #a46934;
+    margin-bottom: 50px;
+    margin-left: 13px;
+}
+
+.site-overview h2:after {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: #a46934;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.site-overview .overview-list {
+	margin-top: 50px;
+}
+.site-overview .overview-list p {
+	margin:0;
+}
+.site-overview .overview-list ul {
+	padding: 0 12px;
+}
+/* end site overview styling */
+/* Start History styling */
+/* end history styling */
+.history {
+    width: 100%;
+    background-color: #141414;
+}
+.history .container {
+	max-width: 950px;
+}
+.history.overview-text {
+	margin-top: 20px;
+}
+.history p {
+	color: #fff;
+	font-size: 14px;
+}
+.history p:first-child {
+	margin-bottom: 50px;
+	font-size: 18px;
+}
+
+.history .container {
+    padding: 100px 65px;
+}
+
+.history h2 {
+    font-size: 30px;
+    position: relative;
+    color: #a46934;
+    margin-bottom: 50px;
+    margin-left: 13px;
+}
+
+.history h2:after {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: #a46934;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+/* Start footer styling */
+
+footer {
+    background-color: #2c2c2b;
+    width: 100%;
+    height: 200px;
+}
+
+footer .footer-content {
+    padding: 30px;
+}
+
+footer .logo {
+    width: 100px;
+    height: 60px;
+    margin: auto;
+}
+
+footer .more-logo {
+    width: 200px;
+    height: 60px;
+    margin: auto;
+}
+
+footer .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+footer .more-logo img {
+    width: 48%;
+    height: 100%;
+    display: inline;
+}
+
+footer p {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+
+
+
+/* end footer styling */
+
+/* WAVE */
+
+@-webkit-keyframes burstBig {
+  0% {
+    opacity: .6;
+  }
+
+  50% {
+    -webkit-transform: scale(6.8);
+    transform: scale(6.8);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes burstBig {
+  0% {
+    opacity: .6;
+  }
+
+  50% {
+    -webkit-transform: scale(6.8);
+    -ms-transform: scale(6.8);
+    transform: scale(6.8);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+.faa-burstBig.animated,
+.faa-burstBig.animated-hover:hover,
+.faa-parentBig.animated-hover:hover > .faa-burstBig {
+  -webkit-animation: burstBig 2s infinite linear;
+  animation: burstBig 2s infinite linear;
+}
