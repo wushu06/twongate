@@ -1,16 +1,18 @@
    <footer>
         <div class="footer-content">
-            <div class="logo">
-                <img src="http://placehold.it/50X50" alt="">
+        <div class="row">
+            <div class="col-md-4">
+                 <img src="http://placehold.it/50X50" alt="">
             </div>
-            <div class="links text-center">
-                <p>T&amp;CS | PRIVACY POLICY | CONTACT US</p>
+            <div class="col-md-4">
+               <p class="text-center"> gent visick   |   KNIGHT FRANK </p>
             </div>
-            <div class="more-logo">
-                <img src="http://placehold.it/50X50" alt="">
-                <img src="http://placehold.it/50X50" alt="">
+            <div class="col-md-4 ">
+                <p class="pull-right">T&amp;CS | PRIVACY POLICY | CONTACT US</p>
             </div>
         </div>
+        </div>
+       
         
     </footer>
 

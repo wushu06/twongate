@@ -2,17 +2,27 @@
     
    
 
-    <section class="main-video">
-       <video poster="http://placehold.it/1200X600" id="bgvid" playsinline autoplay muted loop>
      
-        <source src="#" type="video/webm">
-        <source src="#" type="video/mp4">
-
-       
+     <section class="main-video">
+       <video autoplay loop id="video-background" poster="http://placehold.it/1200X600" muted>
+      <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148422/Vienna-SD.mp4" type="video/mp4">
     </video>
       <div class="overlay">
-             <h1>40,000 SQ FT</h1>
-             <h1> TO 300,000 SQ FT</h1>
+             <div class="text">
+                <h1>Junction 44 M1 &amp;<br>
+                Junction 7 M621<br>
+                Motorways
+                  TO 300,000 SQ FT</h1>
+            </div>
+            <div >
+                <h1>Newly refurbished<br>warehouse / manufacturing<br>premises</h1>
+                 <h1> TO 300,000 SQ FT</h1>
+            </div>
+            <div >
+                <h1>40,000 SQ FT</h1>
+                 <h1> TO 300,000 SQ FT</h1>
+            </div>
+             
         </div>
         
     </section>
